@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    margin: 0px;
+}
+
+h1 {
+    color: #FF5757;
+}
+
+.card {
+    background-color: #FF5757;
+    width: 100%;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 35px;
+    height: 4px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+@media screen and (max-width:768px) {
+
+    .bar1,
+    .bar2,
+    .bar3 {
+        width: 30px;
+        height: 10px;
+        background-color: #333;
+    }
+}
+
+.card1 {
+    background: linear-gradient(to right, #FFEB3B, #FFC0CB, #D8BFD8);
+    position: absolute;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+p {
+    color: black;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card1content {
+    display: flex;
+    justify-content: center;
+    color: black;
+    flex-direction: column;
+    margin: 100px;
+}
+
+.card6 {
+    color: black;
+}
+
+.card5 {
+    background-color: #FF5757;
+    color: black;
+    height: 200px;
+    width: 320px;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+p {
+    text-align: left;
+}
+
+.card1image {
+    height: 800px;
+    width: 600px
+}
+
+nav {
+    height: 80px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+
+}
+
+@media screen and (max-width:768px) {
+    nav {
+        font-size: 10px;
+    }
+
+    .card1image {
+        height: 100px;
+        width: 100px;
+    }
+}
+
+.secondcardimage {
+    height: 250px;
+    width: 200px;
+}
+
+.secondcard {
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(to right, #FFEB3B, #FFC0CB, #D8BFD8);
+    position: absolute;
+    color: white;
+    width: 100%;
+    margin-top: 810px;
+    justify-content: space-between;
+}
+
+.secondcardimage2 {
+    height: 500px;
+    width: 250px;
+}
+
+.secondcard1 {
+    display: flex;
+    flex-direction: row;
+    padding: 100px;
+
+}
+
+.card6 {
+    display: flex;
+    align-items: center;
+    padding-right: 100px;
+}
